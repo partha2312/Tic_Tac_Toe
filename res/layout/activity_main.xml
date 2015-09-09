@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/blue_abstract_background_310971" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvHeader"
+            android:text="Tic_Tac_Toe"
+            android:textSize="25dp" 
+            android:paddingLeft="80dp"
+            android:paddingTop="20dp"/>
+    </TableRow>
+</TableLayout>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TableRow
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:paddingLeft="60dp"
+    	android:paddingTop="60dp">
+        <Button 
+            android:id="@+id/button0"
+    	    android:layout_height="65dp"
+    	    android:layout_width="65dp" />
+        <Button 
+            android:id="@+id/button1"
+            android:layout_height="65dp"
+    	    android:layout_width="65dp"/>
+        <Button 
+            android:id="@+id/button2"
+            android:layout_height="65dp"
+    	    android:layout_width="65dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:paddingLeft="60dp"
+    	android:paddingTop="10dp">
+        <Button 
+            android:id="@+id/button3"
+    	    android:layout_height="65dp"
+    	    android:layout_width="65dp" />
+        <Button 
+            android:id="@+id/button4"
+            android:layout_height="65dp"
+    	    android:layout_width="65dp"/>
+        <Button 
+            android:id="@+id/button5"
+            android:layout_height="65dp"
+    	    android:layout_width="65dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:paddingLeft="60dp"
+    	android:paddingTop="10dp">
+        <Button 
+            android:id="@+id/button6"
+    	    android:layout_height="65dp"
+    	    android:layout_width="65dp" />
+        <Button 
+            android:id="@+id/button7"
+            android:layout_height="65dp"
+    	    android:layout_width="65dp"/>
+        <Button 
+            android:id="@+id/button8"
+            android:layout_height="65dp"
+    	    android:layout_width="65dp"/>
+    </TableRow>
+</TableLayout>
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp">
+    <TableRow 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="60dp">
+        <Button
+            android:id="@+id/btnRefresh"
+            android:text="Refresh"
+            android:layout_width="100dp"
+            android:layout_height="50dp">
+        </Button>
+        <Button
+            android:id="@+id/btnExit"
+            android:text="Exit"
+            android:layout_width="100dp"
+            android:layout_height="50dp">
+        </Button>
+    </TableRow>
+</TableLayout>
+</LinearLayout>
